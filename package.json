@@ -1,0 +1,14 @@
+{
+  "name": "bookclub-level2-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0 --port 3001",
+    "build": "next build",
+    "start": "next start --hostname 0.0.0.0 --port 3001",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": { "node": ">=20.9.0" },
+  "dependencies": { "next": "16.4.3", "react": "19.3.1", "react-dom": "19.3.1" },
+  "devDependencies": { "@types/node": "^24.0.0", "@types/react": "^19.0.0", "@types/react-dom": "^19.0.0", "typescript": "^5.9.3" }
+}
